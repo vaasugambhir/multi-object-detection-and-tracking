@@ -6,7 +6,7 @@ This code uses the YoloV5 algorithm to detect objects and OCSort algorithm to as
 
 ## Implementation steps
 
-- python -m venv env (to setup a local environement)
-- activate the environment with `source ./env/bin/activate` for MacOS and Linux and `./env/bin/activate` for windows
-- pip install -r requirements.txt (to install all files)
-- python track.py
+- To setup the local environemnt `python -m venv env`
+- Activate the environment with `source ./env/bin/activate` for MacOS and Linux and `./env/bin/activate` for windows
+- To install all required files `pip install -r requirements.txt`
+- To run the entire code `python track.py`
