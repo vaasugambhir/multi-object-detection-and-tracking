@@ -2,11 +2,11 @@
 
 ## Introduction
 
-This code uses the YoloV5 algorithm to detect objects and OCSort algorithm to associate the tracks of the detected objects to the respective objects
+This code uses the YoloV5 algorithm to detect objects and OCSort algorithm to associate the tracks of the detected objects to the respective objects themselves
 
 ## Implementation steps
 
 - python -m venv env (to setup a local environement)
-- activate the environment with source ./env/bin/activate for MacOS and Linux and ./env/bin/activate for windows
+- activate the environment with `source ./env/bin/activate` for MacOS and Linux and `./env/bin/activate` for windows
 - pip install -r requirements.txt (to install all files)
 - python track.py
