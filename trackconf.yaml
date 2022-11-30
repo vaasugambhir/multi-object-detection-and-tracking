@@ -1,0 +1,29 @@
+TRACKER_CONFIG:
+    # The name of the tracker
+    TRACKER_TYPE: OC_SORT
+    # The name of the tracker
+    CONFIG_PATH: trackerhub/configs/oc_sort.yaml
+    # The path of the config file
+ 
+DETECTOR_CONFIG:
+  # The name of the detector
+  IOU_TH: 0.05
+  # The threshold for the IOU score
+  CONF_TH: 0.05
+  # The threshold for the confidence score
+  IMAGE_SIZE: 640
+  # The size of the image
+  WEIGHT_PATH: yolov5n-seg.pt
+  # The path of the weight file
+  DEVICE: cpu
+  # The device to run the detector
+
+VIDEO_CONFIG:
+  INPUT_PATH: out.avi
+  # The path of the input video
+  OUTPUT_PATH: Results
+  # The path of the output video
+  SHOW_VIDEO: True
+  # Whether to show the video
+  SAVE_VIDEO: False
+  # Whether to save the video
